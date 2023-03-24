@@ -1,0 +1,20 @@
+{
+    "manifest_version":3,
+    "name":"Sincere procastinator",
+    "version":"1.0.0",
+    "description":"Made for Students",
+    "action":{
+        "default_popup":"chrome.html",
+        "default_icon" :"download.png"
+    },
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":["chrome.js"]
+        }
+    ],
+    "icons":{
+        "128":"download.png"
+    }
+}
+ 
